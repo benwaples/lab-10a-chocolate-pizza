@@ -54,7 +54,7 @@ main {
     margin-left: 15px;
 }
 
-hr {
+#hr-1, #hr-2 {
     border: 0;
     margin: 1.35em auto;
     /* max-width: 100%; */
@@ -75,6 +75,7 @@ hr {
     background-size: 5px 5px;
     width: 100%;
     border-radius: 5px;
+    color: darkslategrey;
   }
 
   #article-heading {
@@ -118,4 +119,59 @@ hr {
     color: gray;
     margin-top: 5px;
     font-family: 'Oswald', sans-serif;
+  }
+  #p-1, #p-2, #p-3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: lighter;
+    color: darkslategray;
+    text-indent: 50px;
+    margin: 25px 0px;
+
+  }
+
+  #big-picture {
+      margin-bottom: 12px;
+  }
+
+  #recipe {
+      margin-top: 12px;
+  }
+
+  #f-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  #author {
+      height: 71px;
+      width: 68px;
+      margin-top: 23px;
+  }
+
+  button {
+      height: 55px;
+      width: 200px;
+      margin-top: 23px;
+      background-color: #ba745d;
+      color: white;
+      font-size: 18px;
+      font-weight: lighter;
+      font-family: Arial, Helvetica, sans-serif;
+     
+  }
+
+  #food {
+      padding-right: 150px;
+      color: darkslategrey;
+  }
+
+  #hr-2 {
+      margin-bottom: 0px;
+      color: darkslategrey;
+  }
+
+  #hr-3 {
+      border: solid px darkslategrey;
   }
